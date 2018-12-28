@@ -41,4 +41,4 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 TARGET_SYSTEM_PROP += device/sony/z3c/system.prop
 
 #D2TW
-TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
+TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/input1/wakeup_gesture"
