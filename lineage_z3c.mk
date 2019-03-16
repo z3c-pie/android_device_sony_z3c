@@ -35,3 +35,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="D5803-user 6.0.1 23.5.A.1.291 2769308465 release-keys"
 
 BUILD_FINGERPRINT := Sony/D5803/D5833:6.0.1/23.5.A.1.291/2769308465:user/release-keys
+
+# Use Custom OTA
+PRODUCT_PROPERTY_OVERRIDES += \
+    lineage.updater.uri=https://raw.githubusercontent.com/ArianK16a/OTA/lineage/z3c.json
