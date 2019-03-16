@@ -10,3 +10,6 @@ ro.sf.lcd_density=320
 
 # USB path
 ro.usb.pid_suffix=1BB
+
+# OTA
+lineage.updater.uri=https://raw.githubusercontent.com/ArianK16a/OTA/lineage/z3c.json
