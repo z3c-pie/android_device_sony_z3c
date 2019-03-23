@@ -1,4 +1,4 @@
-# Copyright (C) 2013 The CyanogenMod Project
+# Copyright (C) 2013-2019 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -25,7 +25,8 @@ TARGET_OTA_ASSERT_DEVICE := D5803,D5833,z3c,aries
 
 TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
 
-BOARD_HARDWARE_CLASS += $(DEVICE_PATH)/cmhw
+# HIDL
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel properties
 TARGET_KERNEL_CONFIG := lineageos_shinano_aries_defconfig
