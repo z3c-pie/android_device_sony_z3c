@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,7 +19,6 @@ set -e
 
 export DEVICE=z3c
 export DEVICE_COMMON=shinano-common
-export PLATFORM_COMMON=msm8974-common
 export VENDOR=sony
 
-./../$PLATFORM_COMMON/extract-files.sh $@
+ ./../../$VENDOR/$DEVICE_COMMON/extract-files.sh $@
