@@ -31,6 +31,7 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
 
 # Kernel properties
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 TARGET_KERNEL_CONFIG := lineageos_shinano_aries_defconfig
 
 # Partition information
